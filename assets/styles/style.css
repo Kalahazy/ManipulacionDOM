@@ -1,0 +1,55 @@
+/* Estilos generales */
+body::before {
+    content: "";
+    background-image: url(https://img.freepik.com/vector-premium/patron-dientes-kawaii-dibujado-mano-estilo-garabato-lindas-ilustraciones-lineales-simples_313437-1394.jpg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4; /* Ajusta el valor de opacidad según lo desees */
+    z-index: -1; /* Coloca el pseudo-elemento detrás del contenido */
+}
+
+body{
+    text-align: center;
+}
+
+#mensajeConfirmacion{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para pantallas pequeñas (hasta 576px de ancho) */
+@media (max-width: 576px) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Estilos para pantallas medianas (de 577px a 991px) */
+@media (min-width: 577px) and (max-width: 991px) {
+    img {
+        max-width: 80%;
+        height: auto;
+    }
+    .col-custom {
+        width: 33%;
+    }
+}
+
+/* Estilos para pantallas grandes (a partir de 992px) */
+@media (min-width: 992px) {
+    img {
+        max-width: 60%;
+        height: auto;
+    }
+    .col-custom {
+        width: 25%;
+    }
+}
+
+.card-header{
+    font-weight: bold; /* Aplica negrita */
+}
