@@ -12,7 +12,7 @@ Cuando el documento se reenderiza, se crea un "árbol" (DOM), tiene muchas ramas
 Cuando hablamos del DOM y entendemos que se representa como un árbol con ramas y hojas, entendemos que cada una de estas ramas y hojas es un nodo.
 
 Que es un nodo?
-Representación más básica de lo qu existe en un DOM, puede ser un elemento o etiqueta, puede ser un atributo, puede ser un texto, incluso un comentario.
+Representación más básica de lo que existe en un DOM, puede ser un elemento o etiqueta, puede ser un atributo, puede ser un texto, incluso un comentario.
     - Documento: Nodo raiz, a partir del cual se derivan los demás nodos. Es el objeto a partir del cual se puede acceder a cualquier elemento dentro de él. Todos los noso derivan de este.
     - Element: Son nodos definidos por etiquetas HTML (div, h1, p, img, meta, head, script, etc.), ya sea que se vean o no se vean (etiquetas que interpreta el navegador).
     - Text: El texto que hay dentro de un elemento se considera un nodo, con la característica que es un nodo hijo.   
